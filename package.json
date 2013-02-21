@@ -1,0 +1,35 @@
+{
+  "name": "haggerston-example",
+  "version": "0.0.1",
+  "description": "An example of using the Haggerston static site generator",
+  "author": {
+    "name": "Kelvin Luck",
+    "url": "http://www.github.com/vitch"
+  },
+  "contributors": [
+    {
+      "name": "Matt Sweetman",
+      "url": "http://www.github.com/webroo"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vitch/haggerston-example.git"
+  },
+  "keywords": [
+    "blog",
+    "example",
+    "static",
+    "site"
+  ],
+  "license": "MIT",
+  "gitHead": "880c837936b0fd629a9d3940257de502ac2a8e28",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "haggerston": "git://github.com/vitch/haggerston.git"
+  }
+}
