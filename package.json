@@ -30,6 +30,7 @@
   "gitHead": "880c837936b0fd629a9d3940257de502ac2a8e28",
   "readmeFilename": "README.md",
   "dependencies": {
-    "haggerston": "git://github.com/vitch/haggerston.git"
+    "grunt": "~0.4.0",
+    "grunt-haggerston": "git://github.com/vitch/grunt-haggerston.git"
   }
 }
