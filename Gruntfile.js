@@ -13,6 +13,18 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 
     clean: ['out/'],
+    copy: {
+      main: {
+        files: [
+          {
+            expand: true,
+            cwd: 'assets/',
+            src: ['**'],
+            dest: 'out/'
+          }
+        ]
+      }
+    },
     stylus: {
       site: {
         files: {
@@ -27,10 +39,11 @@ module.exports = function(grunt) {
 	});
 
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-haggerston');
 
-	grunt.registerTask('build', ['clean', 'stylus', 'haggerston']);
+	grunt.registerTask('build', ['clean', 'copy', 'stylus', 'haggerston']);
 
 	grunt.registerTask('default', ['build']);
 
