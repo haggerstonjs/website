@@ -50,6 +50,13 @@ module.exports = function(grunt) {
         ],
         tasks: 'stylus'
       }
+    },
+    connect: {
+      site: {
+        options: {
+          base: 'out/'
+        }
+      }
     }
 
 	});
@@ -58,9 +65,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-haggerston');
 
 	grunt.registerTask('build', ['clean', 'copy', 'stylus', 'haggerston']);
+  grunt.registerTask('serve', ['build', 'connect', 'watch']);
 
 	grunt.registerTask('default', ['build']);
 
