@@ -1,0 +1,7 @@
+{
+  "template": "page.html",
+  "templateData": {
+    "title": "haggerston.js",
+    "content": "index.md"
+  }
+}
