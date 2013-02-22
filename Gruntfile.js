@@ -13,7 +13,6 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 
 		haggerston: {
-			files: '**/*.md'
 		}
 
 	});
