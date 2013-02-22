@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kelvin Luck -- Developer -- http://github.com/vitch
+    Matt Sweetman -- Developer -- http://github.com/webroo
+
+# THANKS
+
+    node.js
+    Grunt
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    node, grunt
