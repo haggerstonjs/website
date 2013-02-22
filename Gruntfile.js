@@ -12,14 +12,23 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 
+    stylus: {
+      site: {
+        files: {
+          'out/styles/styles.css': 'src/styles/styles.stylus'
+        }
+      }
+    },
 		haggerston: {
+
 		}
 
 	});
 
-	grunt.loadNpmTasks('grunt-haggerston');
+  grunt.loadNpmTasks('grunt-contrib-stylus');
+  grunt.loadNpmTasks('grunt-haggerston');
 
-	grunt.registerTask('build', ['haggerston']);
+	grunt.registerTask('build', ['stylus', 'haggerston']);
 
 	grunt.registerTask('default', ['build']);
 
