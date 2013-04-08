@@ -1,0 +1,7 @@
+{
+  "template": "page.html",
+  "templateData": {
+    "title": "Haggerston Middleware",
+    "content": "middleware.md"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "template": "page.html",
+  "templateData": {
+    "title": "Haggerston Metadata",
+    "content": "metadata.md"
+  }
+}

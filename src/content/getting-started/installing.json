@@ -1,0 +1,7 @@
+{
+  "template": "page.html",
+  "templateData": {
+    "title": "Installing Haggerston",
+    "content": "installing.md"
+  }
+}
